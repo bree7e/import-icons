@@ -1,0 +1,41 @@
+{
+  "name": "@vepp/import-icons",
+  "version": "3.0.0-beta.9",
+  "description": "Tool for import icons from figma",
+  "keywords": [
+    "figma",
+    "icon",
+    "import"
+  ],
+  "homepage": "https://gitlab-dev.ispsystem.net/team/vepp/front",
+  "author": {
+    "name": "Aleksey Tomilov"
+  },
+  "main": "import-icons.ts",
+  "bin": {
+    "import-icons": "bin/import-icons"
+  },
+  "directories": {
+    "schema": "schema",
+    "test": "__tests__"
+  },
+  "files": [
+    "schema",
+    "tsconfig.json",
+    "utils/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.11",
+    "@types/svgo": "^1.3.2"
+  },
+  "peerDependencies": {
+    "fs-extra": "^9.0.11",
+    "got": "^11.8.2",
+    "ora": "^5.4.0",
+    "svgo": "^1.3.2",
+    "ts-node": "^9.1.1"
+  }
+}

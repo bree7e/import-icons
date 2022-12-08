@@ -1,0 +1,13 @@
+{
+  "$schema": "./schema/figma-schema.json",
+  "projects": {
+    "spektr": {
+      "icons": {
+        "url": "https://www.figma.com/file/c9ptwWzEhSUi500387PxYH/%F0%9F%92%8A-Icons_Import?node-id=349%3A1409",
+        "token": "figd_BTSV9iBYw8HVuzhjX1YPiKerezzC9Tjq0XPYWpKJ",
+        "outputDir": "apps/spectr/src/assets/icons/16",
+        "pageName": "16px"
+      }
+    }
+  }
+}
